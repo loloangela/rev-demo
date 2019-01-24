@@ -1,0 +1,45 @@
+JS - Resources
+
+Ternary Operators/Expressions
+https://medium.com/javascript-scene/nested-ternaries-are-great-361bddd0f340
+
+Destructuring
+https://hacks.mozilla.org/2015/05/es6-in-depth-destructuring/
+
+Map, Filter, Reduce
+https://medium.com/@joomiguelcunha/learn-map-filter-and-reduce-in-javascript-ea59009593c4
+
+Default Operator
+https://www.codereadability.com/javascript-default-parameters-with-or-operator/
+
+For ... of
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for...of
+
+Jest Documentation
+https://jestjs.io/docs/en/api
+
+TSLint
+https://spin.atomicobject.com/2017/06/05/tslint-linting-setup/
+
+PostgresSQL
+Creating tables and such:
+http://www.postgresqltutorial.com/postgresql-create-table/
+Navigating with terminal commands:
+http://postgresguide.com/utilities/psql.html
+http://www.postgresqltutorial.com/psql-commands/
+https://gist.github.com/Kartones/dd3ff5ec5ea238d4c546
+
+Querying Postgres db from express:
+https://node-postgres.com/features/queries  // res in here is not the res from express I renamed to response
+
+USF Network
+username: oliver18 (H5)
+ID: U24210282
+
+Express & Sessions
+https://nodewebapps.com/2017/06/18/how-do-nodejs-sessions-work/
+
+`postgres://admin1:${this.pswd}@postgres-test.c5jn9s8xhixw.us-east-2.rds.amazonaws.com/postgres`
+
+Articles to Read:
+https://medium.com/javascript-scene/composing-software-an-introduction-27b72500d6ea

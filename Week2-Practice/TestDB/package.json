@@ -1,0 +1,22 @@
+{
+  "name": "testdb",
+  "version": "1.0.0",
+  "description": "Testing the connection to db",
+  "main": "index.ts",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express-session": "^1.15.6",
+    "express": "^4.16.4",
+    "nodemon": "^1.18.9",
+    "pg": "^7.8.0",
+    "ts-node": "^8.0.1",
+    "typescript": "^3.2.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "nodemon --exec ts-node src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Lori Oliver",
+  "license": "ISC"
+}
