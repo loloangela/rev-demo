@@ -7,6 +7,7 @@ app.use(bodyParser.json());
 
 // Connection to db
 const pg = require('pg');
+// databaseName://userName:password@endpoint
 const connection = connectURL();
 
 const client = new pg.Client(connection);
