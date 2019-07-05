@@ -1,6 +1,7 @@
 import express from 'express';
 import { User } from '../models/user';
-import { authMiddleware } from '../middleware/auth.middleware';
+import { findAll } from '../dao/user.dao';
+// import { authMiddleware } from '../middleware/auth.middleware';
 
 // User data - it is NOT persistant.
 const peter = new User(1, 'peter', 'whatup', 'Peter');
@@ -12,9 +13,15 @@ export const userRouter = express.Router();
 
 // /users - find all
 userRouter.get('', [
-    authMiddleware,
-    (req, res) => {
-    res.json(users);
+    // authMiddleware,
+    async (req, res) => {
+    // res.json(users);
+    try {
+        const users = await findAll();
+        res.json(users);
+    } catch (error) {
+        res.sendStatus(500);
+    }
 }]);
 
 // /users - find by id

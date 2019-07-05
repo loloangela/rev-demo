@@ -1,0 +1,16 @@
+redux:what is redux?;a store which contains the application state: commonly used with react for having state
+redux:why is redux important?;gives you access to shared state: 
+redux:what is the goal of redux?;to create a pub sub model: 
+redux:what is the pub sub model?;subscribers can subscribe to the publisher: 
+redux:what is flux?;a design pattern using components -> view -> actions -> dispatcher -> store -> view: created by facebook
+redux:what was the goal of flux?;makes it easy to trace everything: 
+redux:how is redux different from flux?;view -> action -> dispatcher -> store -> {reducer | state} -> view: 
+redux:what is a provider?;allows componets to access the state: 
+redux:what is a reducer?;manipulates part of state when triggered by actions: 
+redux:what is an enhancer?;middleware that improves some capability of a framework: 
+redux:what is a state?;state is 'stored' in a central area such that it can be bound and manipulated by several objects: 
+redux:what does the connect function do?;takes in binding maps and a state component to produce a component bound to a state: 
+redux:what is an action?;triggers some reducer to to change the state store: 
+redux:what does mapStateToProps do?;binds state: 
+redux:what does mapDispatchToProps do?;binds actions to dispatch calls: 
+redux:why should you use redux even where you don't have state being shared?;you know how the flow of state in an app will go: 

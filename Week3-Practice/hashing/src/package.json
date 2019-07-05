@@ -1,0 +1,24 @@
+{
+  "name": "hashing",
+  "version": "1.0.0",
+  "description": "Learn how to hash passwords and verify them",
+  "main": "password-hashing.js",
+  "dependencies": {
+    "@types/express": "^4.16.1",
+    "bcrypt": "^3.0.3",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "pg": "^7.8.0",
+    "ts-node": "^8.0.2",
+    "typescript": "^3.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.9"
+  },
+  "scripts": {
+    "start": "nodemon --exec node password-hashing.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Lori Oliver",
+  "license": "ISC"
+}

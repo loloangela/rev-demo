@@ -1,0 +1,69 @@
+Lori-Rev-Profile-3-1-19
+
+- Rewrite to be more general and to include all projects not just one
+I am full stack developer with experience building full scale applications. 
+
+Created responsive UI's by leveraging HTML, CSS, JavaScript, React, Redux and Bootstrap. Implemented server-side technologies such as Javascript, Java, Spring Boot, Node.js and Express to store data in a PostgreSQL database. Also I have been the scrum master in multiple teams that have followed the Agile development process.
+
+JavaScript, Node.js and Express to connect to a PostgreSQL relational database
+Java, Spring Boot, 
+
+Created an Employee Reimburse System (ERS) that included a responsive UI using React and Bootstrap connected to API created using JS and TypeScript which enforced security through the use of Sessions and custom middlewares. Created a Survey Application with the UI built using React and Redux connected to a Spring Boot API for the backend.
+
+Extensive knowledge of a whole bunch of technologies that will make up a full stack application (map to the circles at the top)
+
+Designed a single-page web application by leveraging the React library.
+Designed responsive UI using JS, Sass, and Bootstrap.
+Developed modular components with React in order to increase the amount of reuseable code within the application.
+Implement Redux into React application to allow the state to be accessible throughout the application.
+Connected UI to API through Axios fetch calls.
+Constructed and designed Postgres database to store data for the application.
+Reinforce relationships in database through the use of foreign keys and various constraints.
+Leveraged Spring's dependency injection feature to retrieve data objects from a Postgres database.
+Constructed queries in order to provide aggregated data from several tables within an SQL database.
+Built API backend with JavaScript and Typescript.
+Coded API backend in Java with Spring Boot.
+Configured backend server with NodeJS and Express to handle HTTP requests.
+Configured API endpoints to provide desired output/response to the requester (UI).
+Enforced security roles through Express middleware to ensure that user access level was granted based on given role.
+
+
+Staging Management System
+Developed Survey microservice to operate in the Staging Management System (SMS).
+Acted as Scrum Master for team, providing direction and approving pull requests to ensure that the code base stays in a working state.
+Constructed UI for building surveys and templates using React, JavaScript, Bootstrap, HTML and Sass.
+Utilize Chart.js to provide a graphical representation of the survey results.
+Use PostgreSQL to store data and maintain relationships between data.
+Developed Survey Service API using Java, Spring Boot, Eureka Client and OpenFeign.
+Configured OpenFeign client to facilitate communication between our service and other services that make up the SMS architecture.
+Architected Hysterix circuit breaking to ensure that cascading failures do not occur.
+Facilitate communication between teams to ensure the inter-operability of the Survey service within the entire SMS.
+
+
+Survey Says
+Architected the UI design and flow to be followed by our React components. 
+Setup SpringBoot application to act as backend for the application.
+Connect Spring Boot application to our Postgres database by leveraging the Spring Data JPA module.
+Coded user controller to handle creating, retrieving, and updating user data.
+Configure and implement Redux into several React components.
+Leveraged Bootstrap tools to design the login page.
+Acted as Scrum master for team, provided direction and assistance to group members.
+Created methods using JavaScript to parse data before and after retrieving from database, such that it can be used by various components.
+
+ERS
+Leveraged React, JS, and Express to build an API and UI for the ERS System.
+Configured and designed Postgres database to store data and establish constraints to ensure that database relationships are maintained.
+Develop responsive UI design by implementing Bootstrap's grid layout.
+Dynamically display data depending on the data retrieved from the database.
+Wrote custom Axios fetch methods in order to send requests to the API, in order to provide the UI with data from the database.
+Architected the queries necessary for creating, retrieving, and updating information from the Postgres database.
+Use Express sessions to maintain state regarding the specific user for the duration of their use through the application.
+Implement security through the storing of hashed passwords in the database by exercising the blowfish algorithm found in the bcrypt library.
+Enforce role restrictions through the creation and use of Express middlewares, in order to block access from those without required permissions.
+
+
+
+
+
+configure Eureka client to facilitate communication between microservices through the use of Fein Client
+

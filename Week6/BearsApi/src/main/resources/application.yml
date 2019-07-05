@@ -1,0 +1,24 @@
+server:
+  port: 5500
+ 
+spring:
+  application:
+    name: bear-api
+
+  datasource:
+    driverClassName: org.postgresql.Driver
+    initialization-mode: NEVER
+    password: ask
+    url: jdbc:postgresql://localhost:5433/bears
+    username: postgres
+    
+  jpa:
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+    generate-ddl: false
+    hibernate:
+      ddl-auto: none
+    properties:
+      hibernate:
+        default_schema: bears
+    show-sql: false
+    

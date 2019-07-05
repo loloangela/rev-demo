@@ -1,0 +1,17 @@
+h1, h2, footer{
+  text-align: center;
+}
+header, footer {
+  background-color: coral;
+}
+nav {
+  background-color: darkgrey;
+}
+
+#side-nav {
+  background-color: gray;
+  padding-left: 30px; 
+}
+#main-content {
+  padding-left: 20px;
+}

@@ -1,0 +1,18 @@
+{
+  "name": "pg-node",
+  "version": "1.0.0",
+  "description": "Postgres and Node sample project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Lori Oliver",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^10.12.18",
+    "@types/pg": "^7.4.11",
+    "pg": "^7.8.0",
+    "ts-node": "^8.0.1",
+    "typescript": "^3.2.4"
+  }
+}

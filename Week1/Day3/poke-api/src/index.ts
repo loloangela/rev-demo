@@ -21,7 +21,7 @@ const sess = {
     secret: 'potato',
     cookie: { secure: false},
     resave: false,
-    saveUnitialized: false
+    saveUninitialized: false
 };
 // prior to this req.session is nothing after this req.session is an object
 

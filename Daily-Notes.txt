@@ -1,0 +1,186 @@
+Daily Notes Rev
+1-19
+JS, Node Password Hashing:
+1. Install Python in npm
+	npm install -d node-gyp
+2. Install windows build tools (it's long and be doin shit)
+	npm install --global --production windows-build-tools
+3. Install bcrypt
+	npm install -d bcrypt
+NOTE: In order to do imports the way you expect (simply with import) you need to add typescript and the ts-config file,
+
+NOTE: If you want to add the functionality for a server you will also need ts-node, express and @types/express  
+
+HTML - Design Notes
+
+Dark/Deep Purple used on Logo
+#422679
+
+AWS - S3 Bucket
+http://lolo-react-app.s3-website.us-east-2.amazonaws.com
+---------------
+// allow cross origins
+app.use((req, resp, next) => {
+  (process.env.MOVIE_API_STAGE === 'prod')
+    ? resp.header('Access-Control-Allow-Origin', process.env.DEMO_APP_URL)
+    : resp.header('Access-Control-Allow-Origin', `http://localhost:5500`);
+  resp.header('Access-Control-Allow-Headers', 'Origin, X-Requested-With, Content-Type, Accept');
+  resp.header('Access-Control-Allow-Credentials', 'true');
+  next();
+});
+
+app.use((req, resp, next) => {
+	resp.header('Access-Control-Allow-Origin', `http://localhost:5500`);
+	resp.header('Access-Control-Allow-Headers', 'Origin, X-Requested-With, Content-Type, Accept');
+  resp.header('Access-Control-Allow-Credentials', 'true');
+  next();
+});
+
+
+---------------
+Redux - a lot of files to setup but worth it
+
+Dependencies
+npm install --save redux react-redux redux-logger redux-thunk
+npm install -D @types/redux-logger @types/react-redux
+----------------
+Find Review tests for AWS Certification
+Practice Tests (19.99):
+https://www.whizlabs.com/aws-developer-associate/practice-tests/
+Course: Udemy
+
+------------
+Class Notes:
+Sass Guide: http://sass-lang.com/guide
+------------
+
+React Local Storage 
+https://hackernoon.com/how-to-take-advantage-of-local-storage-in-your-react-projects-a895f2b2d3f2
+(npx create-react-app new-app localstorage --typescript)
+----------------
+Java 
+
+Streams
+https://blog.idrsolutions.com/2014/11/java-8-streams-explained-5-minutes/
+https://www.baeldung.com/java-8-streams-introduction
+
+Java Collections Framework
+https://twitter.com/javinpaul/status/660567491618336768
+https://www.baeldung.com/java-collections
+https://www.geeksforgeeks.org/collections-in-java-2/
+	ArrayList
+	https://www.callicoder.com/java-arraylist/
+	https://www.callicoder.com/java-linkedlist/
+	https://www.callicoder.com/java-hashset/
+	https://www.callicoder.com/java-queue/
+	https://stackoverflow.com/questions/38812225/queue-vs-dequeue-in-java
+	https://dzone.com/articles/the-developers-guide-to-collections-queues
+	http://tutorials.jenkov.com/java-collections/deque.html
+	https://www.geeksforgeeks.org/treeset-in-java-with-examples/
+	https://www.callicoder.com/java-treeset/
+	https://javahungry.blogspot.com/2015/10/how-treeset-works-internally-in-java-interview-questions.html
+
+Hibernate
+https://howtodoinjava.com/hibernate-tutorials/
+https://www.journaldev.com/3481/hibernate-session-merge-vs-update-save-saveorupdate-persist-example
+
+npm install redux react-redux @types/react redux-logger redux-thunk @types/react-redux @types/redux-logger
+
+Spring:
+- Dependency Injection -
+https://medium.freecodecamp.org/a-quick-intro-to-dependency-injection-what-it-is-and-when-to-use-it-7578c84fa88f
+
+React/Redux Redirect
+https://blog.logrocket.com/conquer-navigation-state-with-react-router-and-redux-f1beb9b8ea7c
+
+Zuul filters
+- Pre filter
+routing filter
+post filter
+
+filter - type, generation order, criteria action
+
+function to parse iman's results into a format that the database will accept,
+addSurvey, question, AnswerChoice
+
+---------
+SurveySays - Config
+DB_URL:  survey-says.c5jn9s8xhixw.us-east-2.rds.amazonaws.com
+DB_UNM: master
+DB_PSWD: ssadmin1
+DB: survey_says
+DB_SCHEMA: survey_says
+
+--------
+DB: stucker
+
+COGNITO_KEY: pApHsxBeoe1U3znB36G0l3lCO5WPp6Zb3gtmDgIp,
+COGNITO_URL: https://7i6rudc3m2.execute-api.us-east-1.amazonaws.com/uat,
+DB_PASSWORD: EYHvbj6XVtFmLMi,
+DB_SCHEMA: survey,
+DB_URL: jdbc:postgresql://stucker-ers.ccu6niryikzn.us-east-2.rds.amazonaws.com:5432/stucker,
+DB_USERNAME: stucker,
+DEPLOYMENT_STAGE: dev,
+GATEWAY_URL: http://localhost:8765
+
+SurveyService
+"COGNITO_KEY": "pApHsxBeoe1U3znB36G0l3lCO5WPp6Zb3gtmDgIp",
+"COGNITO_URL": "https://7i6rudc3m2.execute-api.us-east-1.amazonaws.com/uat",
+"DB_PASSWORD": "EYHvbj6XVtFmLMi",
+"DB_SCHEMA": "survey",
+"DB_URL": "jdbc:postgresql://stucker-ers.ccu6niryikzn.us-east-2.rds.amazonaws.com:5432/stucker",
+"DB_USERNAME": "stucker",
+"DEPLOYMENT_STAGE": "dev",
+"GATEWAY_URL": "http://localhost:8765"
+
+UserService
+"COGNITO_KEY": "pApHsxBeoe1U3znB36G0l3lCO5WPp6Zb3gtmDgIp",
+"COGNITO_URL": "https://7i6rudc3m2.execute-api.us-east-1.amazonaws.com/uat",
+"DB_PASSWORD": "EYHvbj6XVtFmLMi",
+"DB_SCHEMA": "survey",
+"DB_URL": "jdbc:postgresql://stucker-ers.ccu6niryikzn.us-east-2.rds.amazonaws.com:5432/stucker",
+"DB_USERNAME": "stucker",
+"DEPLOYMENT_STAGE": "dev",
+"GATEWAY_URL": "http://localhost:8765"
+
+Keep Checkboxes
+(Strong to Strong) Remove value (i.e. Average, Good, Ok, Bad) 
+ 
+ ----------
+ Protected Routes:
+ https://tylermcginnis.com/react-router-protected-routes-authentication/
+/* import React, { Component } from 'react';
+import { Table, Button } from 'reactstrap';
+import { ISurvey } from '../../../model/surveys/survey.model';
+import { Redirect } from 'react-router';
+import { surveyClient } from '../../../axios/sms-clients/survey-client';
+
+export class SurveyData extends Component<any, any> {
+
+} */
+
+---------
+Cognito
+
+// In ApplicationContext
+@SpringBootApplication
+@EnableSwagger2
+@EnableFeignClients
+
+// In Controller or where-ever you want to get user email from cognito
+@Autowired
+private CognitoUtil cogUtil;
+// Later on in code
+{
+	cognitoUtil.getRequesterClaims().getEmail();
+}
+
+// In our controllers (P3) it will look like
+
+
+	@CognitoAuth(roles= {CognitoRoles.STAGING_MANAGER, CognitoRoles.TRAINER})
+	@PostMapping
+	public Survey save(@Valid @RequestBody Survey s) {
+		Survey survey = surveyService.save(s);
+		return survey;
+	}

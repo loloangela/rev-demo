@@ -43,3 +43,5 @@ https://nodewebapps.com/2017/06/18/how-do-nodejs-sessions-work/
 
 Articles to Read:
 https://medium.com/javascript-scene/composing-software-an-introduction-27b72500d6ea
+
+Easy PaaS - ElasticBeanstalk
